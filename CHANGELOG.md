@@ -6,6 +6,21 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
+## [2.3.0]
+### Fixed
+  * [#274](https://github.com/jhedstrom/DrupalDriver/issues/274): Installation failing in Drupal 11, please enable support.
+  * [#264](https://github.com/jhedstrom/DrupalDriver/issues/264): Test on PHP 8.2.
+  * [#262](https://github.com/jhedstrom/DrupalDriver/issues/262): Update composer.json scripts for modern testing practices.
+  * [#242](https://github.com/jhedstrom/DrupalDriver/issues/242): Expose ::isBaseField\(\) on the public interfaces.
+### Changed
+  * [#276](https://github.com/jhedstrom/DrupalDriver/pull/276) ([Berdir](https://github.com/Berdir)): D11 testing and fixes.
+  * [#275](https://github.com/jhedstrom/DrupalDriver/pull/275) ([claudiu-cristea](https://github.com/claudiu-cristea)): Drupal 11 support.
+  * [#265](https://github.com/jhedstrom/DrupalDriver/pull/265) ([jhedstrom](https://github.com/jhedstrom)): Test on PHP 8.2.
+  * [#263](https://github.com/jhedstrom/DrupalDriver/pull/263) ([jhedstrom](https://github.com/jhedstrom)): 262: Add phpunit code coverage, refactor composer scripts.
+  * [#261](https://github.com/jhedstrom/DrupalDriver/pull/261) ([jonpugh](https://github.com/jonpugh)): Broaden compatibility with symfony/process.
+  * [#243](https://github.com/jhedstrom/DrupalDriver/pull/243) ([pfrenssen](https://github.com/pfrenssen)): Expose ::isBaseField\(\).
+  * [#241](https://github.com/jhedstrom/DrupalDriver/pull/241) ([kerasai](https://github.com/kerasai)): Allow Entity Reference Field Handler to Refernce by ID.
+  * [#221](https://github.com/jhedstrom/DrupalDriver/pull/221) ([MPParsley](https://github.com/MPParsley)): Fixed issue number in changelog.
 ## [2.2.2]
 ### Added
   * [#258](https://github.com/jhedstrom/DrupalDriver/pull/258) Document testing of the Drupal Driver locally for contributors.
@@ -116,8 +131,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
   * [#153](https://github.com/jhedstrom/DrupalDriver/pull/153): Fix incorrect
     docblock for `CoreInterface::roleCreate`.
 
-
-[Unreleased]: https://github.com/jhedstrom/DrupalDriver/compare/v2.2.2...HEAD
+[Unreleased]: https://github.com/jhedstrom/DrupalDriver/compare/v2.3.0...HEAD
+[2.3.0]: https://github.com/jhedstrom/DrupalDriver/compare/v2.2.2...v2.3.0
 [2.2.2]: https://github.com/jhedstrom/DrupalDriver/compare/v2.2.1...v2.2.2
 [2.2.1]: https://github.com/jhedstrom/DrupalDriver/compare/v2.2.0...v2.2.1
 [2.2.0]: https://github.com/jhedstrom/DrupalDriver/compare/v2.1.1...v2.2.0
