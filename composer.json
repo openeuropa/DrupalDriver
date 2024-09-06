@@ -33,7 +33,7 @@
     "symfony/phpunit-bridge": "^6.1"
   },
   "replace": {
-    "drupal/drupal-driver": "2.2.2"
+    "drupal/drupal-driver": "*"
   },
   "conflict": {
     "drupal/core": ">=8.0 <9.3"
